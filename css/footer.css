@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;  
+}
+li{
+  list-style-type: none;
+}
+.hoverdiv{
+  width:100%; 
+  position: relative;
+}
+.hoverul{
+  width:1200px;
+  height:284px;  
+  margin: 0 auto;   
+}
+.hoverul > ul{
+  width: 100px;
+  height: 284px;
+  display: inline-block;
+  margin:0 40px;
+  vertical-align: bottom;
+}
+.hoverul >ul >li {
+  font-size:13px;
+  color:#999;
+  margin-top:10px;
+}
+.hoverul>ul>p{
+  margin-top:50px;
+  color:#353535;
+}
+.hoverul>.ulxin{
+  margin-left: 100px;
+}
+.hoverul>.ulfu {
+  width:150px;
+}
+/*锚点返回顶部*/
+#fanhuifrist {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.fanhui{
+  width:200px;
+  height:100px;  
+  text-align:center;
+  position: absolute;
+  top:150px;
+  right:50px;
+  color:#353535;
+}
+.fanhui > a{
+  display:block;
+  color:#353535;
+  font-size:13px;
+}
+.fanhui>a >div {
+  font-size: 15px;
+  margin:5px 0;
+}
+
+
+
+.hovimg {
+  width:100%;
+  text-align: center;
+  font-size: 13px;
+  height: 230px;
+  color:#666;  
+}
+.hovimg >img{
+  margin:30px 5px 0 20px;
+}
+.hovimg>span {
+  font-size: 15px;
+}
+
+.hovimg >.hovspan:hover .spanimg {
+  display: table;
+}
+.hovimg>.hovspan>img {
+  position: absolute;
+  top:35px;
+  right:40%;
+  display: none;
+}
+.hovimg >ul >li{
+  display:inline-block;
+  margin-top:30px; 
+}
+.hovimg>p {  
+  margin-top: 30px;
+}
+
+

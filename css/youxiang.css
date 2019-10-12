@@ -1,0 +1,95 @@
+ * {
+   margin: 0px;
+   padding: 0px;
+ }
+ a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.youxiang>img {
+  width:100%;
+}
+.youxiang .youxiangdiv {
+  width:1200px;
+  margin:0 auto;
+}
+.youxiang .youxiangdiv > .youzuo{
+ color: #353535;
+  margin:65px 0 15px 0;
+  font-weight: 600;
+  border-bottom:3px solid #e2e2e2;
+}
+.youxiang .youxiangdiv >.youzuo div{
+  font-size: 22px;
+  margin-bottom:2px;
+  
+}
+.youxiang .youxiangdiv>.youzuo p{
+  font-size:17px;
+  margin-bottom: 15px;
+
+}
+.youxiang .youxiangdiv>.youzuo span {
+  display:inline-block;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.youxiang .youxiangdiv>.youzuo p >span{
+  display: inline-block;
+  margin-right:130px;
+  width:277px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top:40px;
+}
+
+
+.youxiang .youxiangdiv >.youalt {
+  width: 1200px;
+ 
+  
+}
+.youxiang .youxiangdiv>.youalt>div {
+  width:277px;
+  height:171px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+.youxiang .youxiangdiv>.youalt>div >img:hover {
+  transition-duration: 1s;
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); 
+
+}
+
+.youxiang .youxiangdiv>.youalt>div{
+  margin-right:130px;
+}
+.youxiang .youxiangdiv .youlinian>div{
+  width:277px;
+  display: inline-block;
+  margin-right:130px;
+  margin-bottom: 50px;
+}
+.youxiang .youxiangdiv .youlinian >div >a {
+  display: inline-table;  
+  background: #ccc;
+  height: 28px;
+  width: 100px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #353535;
+  border-radius: 2;
+}

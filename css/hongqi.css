@@ -1,0 +1,125 @@
+ * {
+   margin: 0px;
+   padding: 0px;
+ }
+ a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+ /*轮播样式*/
+ .shidian{
+   width: 100%;
+   position: relative;  
+ }
+
+ .shidian>#shidian_img {
+   width: 100%;
+ 
+ }
+  .shidian>#shidian_img >li>img{
+    width: 100%;
+
+  }
+
+ .shidian>#shidian_nav {
+  width:300px;
+  margin:0 auto;
+  margin-top:-50px;
+  text-align: center;
+ }
+ .shidian>#shidian_nav li {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px #ffff00 solid;  
+  display:inline-block;
+  margin:0 auto;
+}
+ .shidian .img_nav .left {
+  position: absolute;
+  top:45%;
+  left:10px;
+  color:#ffffff;
+ }
+
+ .shidian .img_nav .right {  
+  position: absolute;
+  top:45%;
+  right:10px;
+  color:#ffffff;   
+ } 
+
+ /*汽车详情样式*/
+ .hongqing{
+   width:100%;
+   background: #ececec;
+   overflow: hidden; 
+ }
+ /*
+ 高度坍塌
+    1.父元素设置overflow属性设置为hidden
+    2.给父元素设置:after伪类
+ */
+ .hongqing:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+ .hongqing .hongche{
+   width: 1200px;
+   height:662px;
+   background: #fff;
+   margin:55px auto 0;
+   font-size:20px;
+   color:rgba(240, 160, 12, 0.918)
+ }
+ .hongqing .hongche >.hongdiv2{
+  background: rgb(247, 244, 247); 
+}
+ .hongqing .hongche > div{
+  width: 400px;
+  height:662px;
+  float: left; 
+  
+}
+.hongqing .hongche > div > div{
+  width: 224px;
+  height:331px;
+  margin:0 auto;  
+}
+.hongqing .hongche > div > div >img{
+  margin-top:50px; 
+}
+.hongqing .hongche > div > div >div{
+  width:70px;
+  border-bottom: 2px solid rgba(240, 160, 12, 0.918);
+  margin:-50px 0 5px 0;
+}
+.hongqing .hongche > div > div >a{
+    display: block;
+    width:120px;
+    height:32px;
+    line-height: 32px;
+    border-radius: 1px;
+    background: #ececec;
+    font-size: 15px;
+    color:#000;
+    margin:36px 10px 0 0px;
+    padding:0 10px 0 3px;
+}
+.hongqing .hongche > div > div >a span{
+  margin:0px 0px 0 15px; 
+}
+.hongqing .hongjpg{
+  width:1200px;  
+  margin:0 auto 30px;
+}
+.hongqing .hongjpg >img{
+  width:1200px;
+  margin-top:-4px;
+  
+} 
